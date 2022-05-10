@@ -1,3 +1,9 @@
+// adding ability to actually use the home button
+document.getElementById('homeIcon').onclick = function () {
+    location.href = "../projectHub/index.html"
+}
+
+
 const X_CLASS ='x'
 const CIRCLE_CLASS = 'circle'
 const WINNING_COMBINATIONS = [
